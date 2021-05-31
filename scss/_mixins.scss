@@ -1,0 +1,39 @@
+// Mixins
+@mixin flex($flow, $wrap, $just, $align) {
+  display: flex;
+  flex-flow: $flow $wrap;
+  justify-content: $just;
+  align-items: $align;
+}
+
+@mixin trans(){
+  transition: all .4s ease;
+}
+
+@mixin m1461() {
+  @media (max-width: 1461px) { @content; }
+}
+@mixin m1300() {
+  @media (max-width: 1300px) { @content; }
+}
+@mixin m1260() {
+  @media (max-width: 1260px) { @content; }
+}
+@mixin m1161() {
+  @media (max-width: 1161px) { @content; }
+}
+@mixin m1060() {
+  @media (max-width:1060px) { @content; }
+}
+@mixin m1000() {
+  @media (max-width: 1000px) { @content; }
+}
+@mixin m768() {
+  @media (max-width: 768px) { @content; }
+}
+@mixin m600(){
+  @media (max-width: 600px) { @content; }
+}
+@mixin m480(){
+  @media (max-width: 480px) { @content; }
+}
