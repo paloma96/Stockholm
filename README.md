@@ -11,6 +11,9 @@ Se emplea además metodología BEM y se hace uso de Sass con Prepros.
 * [LinkedIn](https://es.linkedin.com/in/paloma-lopez-egea)
 * [Github](https://github.com/paloma96)
 
+## Ver ejemplo en vivo 
+- [https://paloma96.github.io/Stockholm/](https://paloma96.github.io/Stockholm/)
+
 ## Instalación 
 Este proyecto no necesita de instalación. Simplemente abre la carpeta o haz doble click en el .html
   
